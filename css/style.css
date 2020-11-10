@@ -12,6 +12,7 @@
     --secondary-background-color: #f5f4fa;
     --color-white: #ffffff;
     --color-secondary-grey: rgba(255, 255, 255, 0.6);
+    --background-button-tab: #f5f4fa;
 }
 
 /* Body */
@@ -66,4 +67,17 @@ li {
 
 .footer .contact-us {
     color: var(--color-secondary-grey);
+}
+
+/* Filters */
+.filters .but {
+    background-color: var(--background-button-tab);
+    color: var(--secondary-text-color);
+}
+
+.filters .but.active,
+.filters .but:hover,
+.filters .but:focus {
+    background-color: var(--active-color);
+    color: var(--color-white);
 }
