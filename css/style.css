@@ -10,6 +10,8 @@
     --active-color: #2196f3;
     --primary-background-color: #e5e5e5;
     --secondary-background-color: #f5f4fa;
+    --color-white: #ffffff;
+    --color-secondary-grey: rgba(255, 255, 255, 0.6);
 }
 
 /* Body */
@@ -18,7 +20,12 @@ body {
     color: var(--primary-text-color);
 }
 
-/* Navigator page */
+/* Li */
+li {
+    list-style: none;
+}
+
+/* Navigator */
 .site-nav .link {
     color: var(--secondary-text-color);
 }
@@ -32,6 +39,31 @@ body {
     color: var(--active-color);
 }
 
-/* Main index */
+/* Hero */
+.hero {
+    color: var(--secondary-text-color);
+}
+
+.hero .link {
+    background-color: var(--active-color);
+    color: var(--color-white);
+}
+
+/* Section */
+.section-title {
+    color: var(--secondary-text-color);
+}
+
+/* Features */
+.features-list .title {
+    color: var(--secondary-text-color);
+}
 
 /* Footer */
+.footer .address {
+    color: var(--color-white);
+}
+
+.footer .contactus {
+    color: var(--color-secondary-grey);
+}
