@@ -19,14 +19,23 @@
 body {
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
 }
 
-/* Li */
-li {
+/* List */
+.list {
     list-style: none;
 }
 
 /* Navigator */
+.link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
 .site-nav .link {
     color: var(--secondary-text-color);
 }
@@ -51,13 +60,83 @@ li {
 }
 
 /* Section */
-.section-title {
+.section .section-title {
     color: var(--secondary-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.section .text {
+    color: var(--primary-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.section .text.primary {
+    color: var(--secondary-text-color);
+
+    font-weight: 700;
 }
 
 /* Features */
 .features-list .title {
     color: var(--secondary-text-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+
+.features-list .description {
+    color: var(--primary-text-color);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 0.03em;
+}
+
+/* Filters */
+.filters .but {
+    background-color: var(--background-button-tab);
+    color: var(--secondary-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+}
+
+.filters .but.active,
+.filters .but:hover,
+.filters .but:focus {
+    background-color: var(--active-color);
+    color: var(--color-white);
+}
+
+/* Portfolio */
+.portfolio-title {
+    color: var(--secondary-text-color);
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+}
+
+.portfolio-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
 }
 
 /* Footer */
@@ -67,17 +146,4 @@ li {
 
 .footer .contact-us {
     color: var(--color-secondary-grey);
-}
-
-/* Filters */
-.filters .but {
-    background-color: var(--background-button-tab);
-    color: var(--secondary-text-color);
-}
-
-.filters .but.active,
-.filters .but:hover,
-.filters .but:focus {
-    background-color: var(--active-color);
-    color: var(--color-white);
 }
