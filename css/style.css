@@ -86,7 +86,7 @@ body {
 }
 
 /* Features */
-.features-list .title {
+.features .title {
     color: var(--secondary-text-color);
 
     font-weight: 700;
@@ -95,7 +95,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-.features-list .description {
+.features .description {
     color: var(--primary-text-color);
 
     font-weight: 400;
